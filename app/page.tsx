@@ -1,3 +1,5 @@
+'use client'
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -12,7 +14,7 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-gray-900">RevRank.ai v2</h1>
             </div>
             <div className="flex items-center space-x-4">
-              <Button>Admin Login</Button>
+              <Button onClick={() => window.location.href = '/admin'}>Admin Login</Button>
             </div>
           </div>
         </div>
