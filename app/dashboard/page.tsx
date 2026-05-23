@@ -15,8 +15,8 @@ export default function Dashboard() {
               <span className="ml-4 text-sm text-gray-500">Dashboard</span>
             </div>
             <div className="flex items-center space-x-4">
-              <Button variant="outline" onClick={() => window.location.href = '/'}>
-                Logout
+              <Button variant="outline" asChild>
+                <a href="/">Logout</a>
               </Button>
             </div>
           </div>
