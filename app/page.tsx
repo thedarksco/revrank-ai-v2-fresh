@@ -14,7 +14,9 @@ export default function Home() {
               <h1 className="text-2xl font-bold text-gray-900">RevRank.ai v2</h1>
             </div>
             <div className="flex items-center space-x-4">
-              <Button onClick={() => window.location.href = '/admin'}>Admin Login</Button>
+              <Button asChild>
+                <a href="/admin">Admin Login</a>
+              </Button>
             </div>
           </div>
         </div>
